@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="go"      fetch="https://github.com/errordeveloper"/>
+  <remote name="linaro"  fetch="https://git.linaro.org/openembedded"/>
+  <remote name="oe"      fetch="https://github.com/openembedded"/>
+  <remote name="openamp" fetch="https://github.com/OpenAMP"/>
+  <remote name="yocto"   fetch="https://git.yoctoproject.org/git"/>
+
+  <default sync-j="4"/>
+
+  <project remote="oe"      revision="master"       name="bitbake"             path="sources/core/bitbake"/>
+  <project remote="yocto"   revision="master"       name="poky"                path="sources/core"/>
+  <project remote="oe"      revision="master"       name="meta-openembedded"   path="sources/meta-openembedded"/>
+  <project remote="linaro"  revision="master"       name="meta-linaro"         path="sources/meta-linaro"/>
+  <project remote="openamp" revision="master"       name="meta-openamp"        path="sources/meta-openamp"/>
+</manifest>
+
