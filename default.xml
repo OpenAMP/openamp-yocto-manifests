@@ -5,6 +5,8 @@
   <remote name="oe"      fetch="https://github.com/openembedded"/>
   <remote name="openamp" fetch="https://github.com/OpenAMP"/>
   <remote name="yocto"   fetch="https://git.yoctoproject.org/git"/>
+  <remote name="xilinx"  fetch="https://github.com/Xilinx"/>
+  <remote name="wjliang" fetch="https://github.com/wjliang"/>
 
   <default sync-j="4"/>
 
@@ -13,5 +15,7 @@
   <project remote="oe"      revision="master"       name="meta-openembedded"   path="sources/meta-openembedded"/>
   <project remote="linaro"  revision="master"       name="meta-linaro"         path="sources/meta-linaro"/>
   <project remote="openamp" revision="master"       name="meta-openamp"        path="sources/meta-openamp"/>
+  <project remote="xilinx"  revision="rel-v2018.2"  name="meta-xilinx"         path="sources/meta-xilinx"/>
+  <project remote="wjliang" revision="master"       name="meta-openamp-test-xilinx" path="sources/meta-openamp-test-xilinx"/>
 </manifest>
 
